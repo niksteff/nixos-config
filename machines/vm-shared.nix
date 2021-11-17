@@ -23,7 +23,7 @@
   networking.hostName = "dev";
 
   # Set your time zone.
-  time.timeZone = "America/Los_Angeles";
+  time.timeZone = "Europe/Berlin";
 
   # The global useDHCP flag is deprecated, therefore explicitly set to false here.
   # Per-interface useDHCP will be mandatory in the future, so this generated config
@@ -59,7 +59,7 @@
       sessionCommands = ''
         ${pkgs.xlibs.xset}/bin/xset r rate 200 40
       '' + (if currentSystem == "aarch64-linux" then ''
-        ${pkgs.xorg.xrandr}/bin/xrandr -s '2880x1800'
+        ${pkgs.xorg.xrandr}/bin/xrandr -s '1920x1080'
       '' else "");
     };
 
@@ -114,7 +114,7 @@
       xrandr -s 6016x3384_60.00
     '')
     (writeShellScriptBin "xrandr-mbp" ''
-      xrandr -s 2880x1800
+      xrandr -s 1920x1080
     '')
   ];
 

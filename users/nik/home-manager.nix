@@ -84,7 +84,7 @@ let sources = import ../../nix/sources.nix; in {
       whitelist = {
         prefix= [
           "$HOME/code/go/src/github.com/hashicorp"
-          "$HOME/code/go/src/github.com/mitchellh"
+          "$HOME/code/go/src/github.com/nik"
         ];
 
         exact = ["$HOME/.envrc"];
@@ -131,10 +131,10 @@ let sources = import ../../nix/sources.nix; in {
 
   programs.git = {
     enable = true;
-    userName = "Mitchell Hashimoto";
-    userEmail = "mitchell.hashimoto@gmail.com";
+    userName = "Nik Steffen";
+    userEmail = "nik.steffen@pm.me";
     signing = {
-      key = "523D5DC389D273BC";
+      key = "";
       signByDefault = true;
     };
     aliases = {
@@ -146,7 +146,7 @@ let sources = import ../../nix/sources.nix; in {
       color.ui = true;
       core.askPass = ""; # needs to be empty to use terminal for ask pass
       credential.helper = "store"; # want to make this more secure
-      github.user = "mitchellh";
+      github.user = "nikstef";
       push.default = "tracking";
       init.defaultBranch = "main";
     };
@@ -155,7 +155,7 @@ let sources = import ../../nix/sources.nix; in {
   programs.go = {
     enable = true;
     goPath = "code/go";
-    goPrivate = [ "github.com/mitchellh" "github.com/hashicorp" "rfc822.mx" ];
+    goPrivate = [ "github.com/nikstef" ];
   };
 
   programs.tmux = {
