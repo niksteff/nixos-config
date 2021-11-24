@@ -113,10 +113,10 @@
         "homepage": null,
         "owner": "niksteff",
         "repo": "vim-config",
-        "rev": "ca4992a65f272ff4e0727c1278bde5b932e7529d",
-        "sha256": "0m92bxc5i5xc0n280raxamsvqfbgy9acxm5dbq4vkdc206a1sk1q",
+        "rev": "4fdc3cdd9def1a0f38da80676288ac7bcc949be6",
+        "sha256": "01yp6p5r9mpa5mym91hix0wvdsf2hkfx805wnr7pdq0c5kikhbnm",
         "type": "tarball",
-        "url": "https://github.com/niksteff/vim-config/archive/ca4992a65f272ff4e0727c1278bde5b932e7529d.tar.gz",
+        "url": "https://github.com/niksteff/vim-config/archive/4fdc3cdd9def1a0f38da80676288ac7bcc949be6.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-dracula": {
