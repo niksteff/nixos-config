@@ -14,33 +14,13 @@ let sources = import ../../nix/sources.nix; in rec {
     };
 
     vim-misc = vimUtils.buildVimPlugin {
-      name = "vim-misc";
+      name = "vim-config";
       src = sources.vim-misc;
-    };
-
-    vim-pgsql = vimUtils.buildVimPlugin {
-      name = "vim-pgsql";
-      src = sources.vim-pgsql;
-    };
-
-    vim-tla = vimUtils.buildVimPlugin {
-      name = "tla.vim";
-      src = sources.vim-tla;
-    };
-
-    vim-zig = vimUtils.buildVimPlugin {
-      name = "zig.vim";
-      src = sources.vim-zig;
     };
 
     dracula = vimUtils.buildVimPlugin {
       name = "dracula";
       src = sources.vim-dracula;
-    };
-
-    pigeon = vimUtils.buildVimPlugin {
-      name = "pigeon.vim";
-      src = sources.vim-pigeon;
     };
 
     AfterColors = vimUtils.buildVimPlugin {
@@ -53,52 +33,14 @@ let sources = import ../../nix/sources.nix; in rec {
       };
     };
 
-    vim-nord = vimUtils.buildVimPlugin {
-      name = "vim-nord";
-      src = sources.vim-nord;
+    vim-nerdtree = vimUtils.buildVimPlugin {
+      name = "nerdtree";
+      src = fetchFromGitHub {
+        owner = "preservim";
+        repo = "nerdtree";
+        rev = "eed488b1cd1867bd25f19f90e10440c5cc7d6424";
+        sha256 = "0hlyn2l9ppjn92zaiw51i6d15li15z5083m13m0710giqx05qrak";
+      };
     };
-
-    nvim-treesitter = vimUtils.buildVimPlugin {
-      name = "nvim-treesitter";
-      src = sources.nvim-treesitter;
-    };
-
-    nvim-treesitter-playground = vimUtils.buildVimPlugin {
-      name = "nvim-treesitter-playground";
-      src = sources.nvim-treesitter-playground;
-    };
-
-    nvim-lspconfig = vimUtils.buildVimPlugin {
-      name = "nvim-lspconfig";
-      src = sources.nvim-lspconfig;
-
-      # We have to do this because the build phase runs tests which require
-      # git and I don't know how to get git into here.
-      buildPhase = ":";
-    };
-
-    nvim-lspinstall = vimUtils.buildVimPlugin {
-      name = "nvim-lspinstall";
-      src = sources.nvim-lspinstall;
-    };
-
-    nvim-treesitter-textobjects = vimUtils.buildVimPlugin {
-      name = "nvim-treesitter-textobjects";
-      src = sources.nvim-treesitter-textobjects;
-    };
-  };
-
-  tree-sitter-proto = self.callPackage
-    (sources.nixpkgs + /pkgs/development/tools/parsing/tree-sitter/grammar.nix) { } {
-    language = "proto";
-    version  = "0.1.0";
-    source   = sources.tree-sitter-proto;
-  };
-
-  tree-sitter-hcl = self.callPackage
-    (sources.nixpkgs + /pkgs/development/tools/parsing/tree-sitter/grammar.nix) { } {
-    language = "hcl";
-    version  = "0.1.0";
-    source   = sources.tree-sitter-hcl;
   };
 }

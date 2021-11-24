@@ -59,54 +59,6 @@
         "url": "https://github.com/NixOS/nixpkgs/archive/3b1789322fcbcb5cf51228d732752714f1bf77da.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "nvim-lspconfig": {
-        "branch": "master",
-        "description": "Quickstart configurations for the Nvim LSP client",
-        "homepage": "",
-        "owner": "neovim",
-        "repo": "nvim-lspconfig",
-        "rev": "9ca394ec3a9305a6c30018ee6f731c9b23a4b25e",
-        "sha256": "0w1nkiqnbskz8cj02nm9idhsavilk0akvfh4nagk72xvxvmxggi9",
-        "type": "tarball",
-        "url": "https://github.com/neovim/nvim-lspconfig/archive/9ca394ec3a9305a6c30018ee6f731c9b23a4b25e.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nvim-treesitter": {
-        "branch": "master",
-        "description": "Nvim Treesitter configurations and abstraction layer",
-        "homepage": "",
-        "owner": "nvim-treesitter",
-        "repo": "nvim-treesitter",
-        "rev": "6b3f9087514af0b12a1abc92d5c9f0229e96cc39",
-        "sha256": "1f1nimi0illmh1ccac19l4mmnq0zcw4szzzkils35pkidl6rziwa",
-        "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter/archive/6b3f9087514af0b12a1abc92d5c9f0229e96cc39.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nvim-treesitter-playground": {
-        "branch": "master",
-        "description": "Treesitter playground integrated into Neovim",
-        "homepage": "",
-        "owner": "nvim-treesitter",
-        "repo": "playground",
-        "rev": "787a7a8d4444e58467d6b3d4b88a497e7d494643",
-        "sha256": "1y4dwbs40qn942x0hd93yrk04yiphy73b45vcjrknmxq9szhvhk0",
-        "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/playground/archive/787a7a8d4444e58467d6b3d4b88a497e7d494643.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nvim-treesitter-textobjects": {
-        "branch": "master",
-        "description": null,
-        "homepage": "",
-        "owner": "nvim-treesitter",
-        "repo": "nvim-treesitter-textobjects",
-        "rev": "7c80cf3c0f9f3af4dff717c3b0c090d117d37108",
-        "sha256": "0pdmc56l9grrn7qj6h3ryizs8qvxzgqas80hb0ixywb7m8h10igw",
-        "type": "tarball",
-        "url": "https://github.com/nvim-treesitter/nvim-treesitter-textobjects/archive/7c80cf3c0f9f3af4dff717c3b0c090d117d37108.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "pack": {
         "branch": "v0.11.0",
         "description": "CLI for building apps using Cloud Native Buildpacks",
@@ -155,30 +107,6 @@
         "url": "https://github.com/tmux-plugins/tmux-pain-control/archive/2db63de3b08fc64831d833240749133cecb67d92.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "tree-sitter-hcl": {
-        "branch": "main",
-        "description": "A tree-sitter grammar for HCL (HashiCorp Configuration Language), used by projects such as Terraform.",
-        "homepage": "",
-        "owner": "mitchellh",
-        "repo": "tree-sitter-hcl",
-        "rev": "e01cf34478d5869209a7b1a80a12e63b40952754",
-        "sha256": "08hk1h93qjndfs5gi5ggsl0sbssq4s4dgx2890pwg4h6l2x1m3xz",
-        "type": "tarball",
-        "url": "https://github.com/mitchellh/tree-sitter-hcl/archive/e01cf34478d5869209a7b1a80a12e63b40952754.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "tree-sitter-proto": {
-        "branch": "main",
-        "description": "A tree-sitter grammar for protocol buffer files (proto3).",
-        "homepage": null,
-        "owner": "mitchellh",
-        "repo": "tree-sitter-proto",
-        "rev": "42d82fa18f8afe59b5fc0b16c207ee4f84cb185f",
-        "sha256": "001y2z2683fagryqj5f0gs3rcgx2nbw3x3r9afydhss80ihb8zvi",
-        "type": "tarball",
-        "url": "https://github.com/mitchellh/tree-sitter-proto/archive/42d82fa18f8afe59b5fc0b16c207ee4f84cb185f.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
     "vim-dracula": {
         "branch": "master",
         "description": "🧛🏻‍♂️ Dark theme for Vim",
@@ -215,76 +143,4 @@
         "url": "https://github.com/tpope/vim-fugitive/archive/e2927fb4676b499931a3c27a2dc8a8a8bc52ab55.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "vim-misc": {
-        "branch": "master",
-        "description": "My Vim configuration files.",
-        "homepage": null,
-        "owner": "mitchellh",
-        "repo": "vim-misc",
-        "rev": "0423e44469e3ac4233dfeb7e4183158434c485c0",
-        "sha256": "1k1p9bkfs4akh036glsgx782f1gdwyp96qd04mhnfrg0gggyvi07",
-        "type": "tarball",
-        "url": "https://github.com/mitchellh/vim-misc/archive/0423e44469e3ac4233dfeb7e4183158434c485c0.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "vim-nord": {
-        "branch": "develop",
-        "description": "An arctic, north-bluish clean and elegant Vim theme.",
-        "homepage": "https://www.nordtheme.com/ports/vim",
-        "owner": "crispgm",
-        "repo": "nord-vim",
-        "rev": "cc5b0e9f472bdcbdaa701c94302796fb1e64e8d4",
-        "sha256": "0zb4a0xmk6q7ha8x0b28xb02vk390aypn82kcqy3ilv1l43pxly0",
-        "type": "tarball",
-        "url": "https://github.com/crispgm/nord-vim/archive/cc5b0e9f472bdcbdaa701c94302796fb1e64e8d4.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "vim-pgsql": {
-        "branch": "master",
-        "description": "The best PostgreSQL plugin for Vim!",
-        "homepage": null,
-        "owner": "lifepillar",
-        "repo": "pgsql.vim",
-        "rev": "d5ed1475088e85654281902a08637a632ff7409c",
-        "sha256": "18bz65llksdj0yvafnifvs74g0qhar9vg0xx3s46q4iq6zr6cybv",
-        "type": "tarball",
-        "url": "https://github.com/lifepillar/pgsql.vim/archive/d5ed1475088e85654281902a08637a632ff7409c.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "vim-pigeon": {
-        "branch": "master",
-        "description": "Vim syntax for https://github.com/mna/pigeon, a parser generator built for Go.",
-        "homepage": "",
-        "owner": "jasontbradshaw",
-        "repo": "pigeon.vim",
-        "rev": "a7f149c99b7259437032af45db57c53d4c41e68b",
-        "sha256": "079krbw1z4bjwa7qfz33fwjy5h0fry0i2a02wnvqkrqnxmzq5dxs",
-        "type": "tarball",
-        "url": "https://github.com/jasontbradshaw/pigeon.vim/archive/a7f149c99b7259437032af45db57c53d4c41e68b.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "vim-tla": {
-        "branch": "master",
-        "description": "Vim plugin for TLA+ and PlusCal",
-        "homepage": null,
-        "owner": "hwayne",
-        "repo": "tla.vim",
-        "rev": "0d6d453a401542ce1db247c6fd139ac99b8a5add",
-        "sha256": "1bfxnvx3g5679jan7v5prh7zk0f77m81g8c9ngq75nxdn20ihl7l",
-        "type": "tarball",
-        "url": "https://github.com/hwayne/tla.vim/archive/0d6d453a401542ce1db247c6fd139ac99b8a5add.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "vim-zig": {
-        "branch": "master",
-        "description": "Vim configuration for Zig",
-        "homepage": null,
-        "owner": "ziglang",
-        "repo": "zig.vim",
-        "rev": "0adf3a1407bdf60a6c1446fb6a9a05c9823e4290",
-        "sha256": "0sdjznbzwj180g1jgn6rizbq2dq2clpcj1rj1xb3m127w4rgqhyj",
-        "type": "tarball",
-        "url": "https://github.com/ziglang/zig.vim/archive/0adf3a1407bdf60a6c1446fb6a9a05c9823e4290.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    }
 }

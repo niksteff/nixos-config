@@ -35,7 +35,7 @@ let sources = import ../../nix/sources.nix; in {
     LANG = "en_US.UTF-8";
     LC_CTYPE = "en_US.UTF-8";
     LC_ALL = "en_US.UTF-8";
-    EDITOR = "nvim";
+    EDITOR = "vim";
     PAGER = "less -FirSwX";
     MANPAGER = "less -FirSwX";
   };
@@ -44,15 +44,6 @@ let sources = import ../../nix/sources.nix; in {
 
   xdg.configFile."i3/config".text = builtins.readFile ./i3;
   xdg.configFile."rofi/config.rasi".text = builtins.readFile ./rofi;
-
-  # tree-sitter parsers
-  xdg.configFile."nvim/parser/proto.so".source = "${pkgs.tree-sitter-proto}/parser";
-  xdg.configFile."nvim/queries/proto/folds.scm".source =
-    "${sources.tree-sitter-proto}/queries/folds.scm";
-  xdg.configFile."nvim/queries/proto/highlights.scm".source =
-    "${sources.tree-sitter-proto}/queries/highlights.scm";
-  xdg.configFile."nvim/queries/proto/textobjects.scm".source =
-    ./textobjects.scm;
 
   #---------------------------------------------------------------------
   # Programs
@@ -135,7 +126,7 @@ let sources = import ../../nix/sources.nix; in {
     userName = "Nik Steffen";
     userEmail = "nik.steffen@pm.me";
     signing = {
-      key = "";
+      key = "C6A86FF709AB261D";
       signByDefault = true;
     };
     aliases = {
@@ -218,25 +209,17 @@ let sources = import ../../nix/sources.nix; in {
     };
   };
 
-  programs.neovim = {
+  programs.vim = {
     enable = true;
     package = pkgs.neovim-nightly;
 
     plugins = with pkgs; [
       customVim.vim-fish
       customVim.vim-fugitive
-      customVim.vim-misc
-      customVim.vim-pgsql
-      customVim.vim-tla
-      customVim.vim-zig
-      customVim.pigeon
+      customVim.vim-config
       customVim.AfterColors
 
-      customVim.vim-nord
-      customVim.nvim-lspconfig
-      customVim.nvim-treesitter
-      customVim.nvim-treesitter-playground
-      customVim.nvim-treesitter-textobjects
+      customVim.vim-nerdtree
 
       vimPlugins.ctrlp
       vimPlugins.vim-airline
@@ -267,6 +250,6 @@ let sources = import ../../nix/sources.nix; in {
   xsession.pointerCursor = {
     name = "Vanilla-DMZ";
     package = pkgs.vanilla-dmz;
-    size = 128;
+    size = 32;
   };
 }
