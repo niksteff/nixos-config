@@ -13,9 +13,9 @@ let sources = import ../../nix/sources.nix; in rec {
       src = sources.vim-fugitive;
     };
 
-    vim-misc = vimUtils.buildVimPlugin {
+    vim-config = vimUtils.buildVimPlugin {
       name = "vim-config";
-      src = sources.vim-misc;
+      src = sources.vim-config;
     };
 
     dracula = vimUtils.buildVimPlugin {

@@ -211,7 +211,7 @@ let sources = import ../../nix/sources.nix; in {
 
   programs.vim = {
     enable = true;
-    package = pkgs.neovim-nightly;
+    #package = pkgs.vim;
 
     plugins = with pkgs; [
       customVim.vim-fish
