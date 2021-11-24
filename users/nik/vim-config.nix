@@ -1,7 +1,7 @@
 { sources }:
 ''
 "--------------------------------------------------------------------
-" Fix vim paths so we load the vim-misc directory
+" Fix vim paths so we load the vim-config directory
 let g:vim_home_path = "~/.vim"
 
 " This works on NixOS 21.05
