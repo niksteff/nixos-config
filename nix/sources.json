@@ -107,6 +107,18 @@
         "url": "https://github.com/tmux-plugins/tmux-pain-control/archive/2db63de3b08fc64831d833240749133cecb67d92.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "vim-config": {
+        "branch": "master",
+        "description": "my vim configuration",
+        "homepage": null,
+        "owner": "niksteff",
+        "repo": "vim-config",
+        "rev": "3e85e66495f8f832e753f22b9eab4859039222bc",
+        "sha256": "0ficryd2axdfsvnakcqlv3f6fl57icfkmyzr6qsd5xnnnkbha9d9",
+        "type": "tarball",
+        "url": "https://github.com/niksteff/vim-config/archive/3e85e66495f8f832e753f22b9eab4859039222bc.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "vim-dracula": {
         "branch": "master",
         "description": "🧛🏻‍♂️ Dark theme for Vim",
@@ -142,5 +154,5 @@
         "type": "tarball",
         "url": "https://github.com/tpope/vim-fugitive/archive/e2927fb4676b499931a3c27a2dc8a8a8bc52ab55.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
+    }
 }
