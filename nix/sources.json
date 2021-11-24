@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "jethrokuan",
         "repo": "fzf",
-        "rev": "24f4739fc1dffafcc0da3ccfbbd14d9c7d31827a",
-        "sha256": "0kz057nr07ybh0y06ww3p424rgk8pi84pnch9jzb040qqn9a8823",
+        "rev": "479fa67d7439b23095e01b64987ae79a91a4e283",
+        "sha256": "0k6l21j192hrhy95092dm8029p52aakvzis7jiw48wnbckyidi6v",
         "type": "tarball",
-        "url": "https://github.com/jethrokuan/fzf/archive/24f4739fc1dffafcc0da3ccfbbd14d9c7d31827a.tar.gz",
+        "url": "https://github.com/jethrokuan/fzf/archive/479fa67d7439b23095e01b64987ae79a91a4e283.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "go": {
@@ -41,10 +41,10 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "f73bf8d584148677b01859677a63191c31911eae",
-        "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
+        "rev": "5830a4dd348d77e39a0f3c4c762ff2663b602d4c",
+        "sha256": "1d3lsrqvci4qz2hwjrcnd8h5vfkg8aypq3sjd4g3izbc8frwz5sm",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/5830a4dd348d77e39a0f3c4c762ff2663b602d4c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
@@ -53,10 +53,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3b1789322fcbcb5cf51228d732752714f1bf77da",
-        "sha256": "0m6gcl2pzvicwbflsvmccdyf03ki1zl3d9dl8rn8hj1gdgssj6vr",
+        "rev": "71683e8f4179c0595e168251dedef63b1b2cec8f",
+        "sha256": "1maphpx1b888g5yj8ks95nx1hxif4hha9xps91jnmgl3q3arwncs",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/3b1789322fcbcb5cf51228d732752714f1bf77da.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/71683e8f4179c0595e168251dedef63b1b2cec8f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "pack": {
@@ -77,10 +77,10 @@
         "homepage": "",
         "owner": "oh-my-fish",
         "repo": "theme-bobthefish",
-        "rev": "a2ad38aa051aaed25ae3bd6129986e7f27d42d7b",
-        "sha256": "1fssb5bqd2d7856gsylf93d28n3rw4rlqkhbg120j5ng27c7v7lq",
+        "rev": "332f23abd7a095d5b2c024a061af7b890a4f0c20",
+        "sha256": "0nhhc0d5z9k0srpalg7dv6zrls0qsw29bqp9vaajipcz53j7x6lf",
         "type": "tarball",
-        "url": "https://github.com/oh-my-fish/theme-bobthefish/archive/a2ad38aa051aaed25ae3bd6129986e7f27d42d7b.tar.gz",
+        "url": "https://github.com/oh-my-fish/theme-bobthefish/archive/332f23abd7a095d5b2c024a061af7b890a4f0c20.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "tmux-dracula": {
@@ -89,10 +89,10 @@
         "homepage": "https://draculatheme.com/tmux",
         "owner": "dracula",
         "repo": "tmux",
-        "rev": "d311e94d868b0d59a896a4c09b6f658b1059519f",
-        "sha256": "0i8vy40agd36vlgdn29idy26k06wn006kma8j1pnp3715jdiq1az",
+        "rev": "78869c38cc998f710c12e04d2e3b92c517a4cd65",
+        "sha256": "0hj1qiq6g6qnyfdgn9nhlw74ssvpzqfmzcs8v24fdm5mff9g9sr5",
         "type": "tarball",
-        "url": "https://github.com/dracula/tmux/archive/d311e94d868b0d59a896a4c09b6f658b1059519f.tar.gz",
+        "url": "https://github.com/dracula/tmux/archive/78869c38cc998f710c12e04d2e3b92c517a4cd65.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "tmux-pain-control": {
@@ -101,10 +101,10 @@
         "homepage": "",
         "owner": "tmux-plugins",
         "repo": "tmux-pain-control",
-        "rev": "2db63de3b08fc64831d833240749133cecb67d92",
-        "sha256": "0w7a6n4n86ysiqcqj12j2hg9r5fznvbp3dz8pzas9q1k3avlk0zk",
+        "rev": "32b760f6652f2305dfef0acd444afc311cf5c077",
+        "sha256": "06rbr0n7pabi4wr7idpb2ri1r14gr2nmgbkq2y3x73ssng1kslnr",
         "type": "tarball",
-        "url": "https://github.com/tmux-plugins/tmux-pain-control/archive/2db63de3b08fc64831d833240749133cecb67d92.tar.gz",
+        "url": "https://github.com/tmux-plugins/tmux-pain-control/archive/32b760f6652f2305dfef0acd444afc311cf5c077.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-config": {
@@ -113,10 +113,10 @@
         "homepage": null,
         "owner": "niksteff",
         "repo": "vim-config",
-        "rev": "3e85e66495f8f832e753f22b9eab4859039222bc",
-        "sha256": "0ficryd2axdfsvnakcqlv3f6fl57icfkmyzr6qsd5xnnnkbha9d9",
+        "rev": "ca4992a65f272ff4e0727c1278bde5b932e7529d",
+        "sha256": "0m92bxc5i5xc0n280raxamsvqfbgy9acxm5dbq4vkdc206a1sk1q",
         "type": "tarball",
-        "url": "https://github.com/niksteff/vim-config/archive/3e85e66495f8f832e753f22b9eab4859039222bc.tar.gz",
+        "url": "https://github.com/niksteff/vim-config/archive/ca4992a65f272ff4e0727c1278bde5b932e7529d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-dracula": {
@@ -125,10 +125,10 @@
         "homepage": "https://draculatheme.com/vim",
         "owner": "dracula",
         "repo": "vim",
-        "rev": "ba00ac0432541811955e50b8420c25b22762c7c9",
-        "sha256": "1rp0zip0p07rbfiz8b5nvm6k1d80yvdgn4h59v3bg8j9qan7rg3h",
+        "rev": "e5f09746562ef0226d3484a01609ceca41700a3d",
+        "sha256": "1k5bwif20srhzwj8fwigrih1npjnjcvivl7sr7idspp7rig7lldk",
         "type": "tarball",
-        "url": "https://github.com/dracula/vim/archive/ba00ac0432541811955e50b8420c25b22762c7c9.tar.gz",
+        "url": "https://github.com/dracula/vim/archive/e5f09746562ef0226d3484a01609ceca41700a3d.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "vim-fish": {
@@ -149,10 +149,10 @@
         "homepage": "https://www.vim.org/scripts/script.php?script_id=2975",
         "owner": "tpope",
         "repo": "vim-fugitive",
-        "rev": "e2927fb4676b499931a3c27a2dc8a8a8bc52ab55",
-        "sha256": "0bqnq5ayws8dlg4zmp4ra0y9343dncg2v588311kxb3vc5m42vp2",
+        "rev": "e82332ee9e140d8959d0b654d2b1c659641ea6d3",
+        "sha256": "0w5lxswmjhggwd3c9akpcniakkr7337g1sxabgbkcqsq1ramppgv",
         "type": "tarball",
-        "url": "https://github.com/tpope/vim-fugitive/archive/e2927fb4676b499931a3c27a2dc8a8a8bc52ab55.tar.gz",
+        "url": "https://github.com/tpope/vim-fugitive/archive/e82332ee9e140d8959d0b654d2b1c659641ea6d3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
