@@ -47,6 +47,10 @@ end
 mkdir -p $HOME/.vim/{backup,swap,undo}
 
 #-------------------------------------------------------------------------------
+# link host folder to a folder in the home dir
+#-------------------------------------------------------------------------------
+ln -s /host/development ~/development
+
 # Prompt
 #-------------------------------------------------------------------------------
 # Do not show any greeting
