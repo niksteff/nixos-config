@@ -12,6 +12,7 @@ let sources = import ../../nix/sources.nix; in {
   # not a huge list.
   home.packages = [
     pkgs.bat
+    pkgs.ripgrep
     pkgs.fzf
     pkgs.git-crypt
     pkgs.htop
@@ -22,7 +23,6 @@ let sources = import ../../nix/sources.nix; in {
     pkgs.tree
     pkgs.watch
     pkgs.zathura
-
     pkgs.tlaplusToolbox
     pkgs.tetex
   ];
